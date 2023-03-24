@@ -1,0 +1,28 @@
+table,th,td{
+    border: 3px dotted black;
+    border-collapse: collapse;
+    padding: 10px;
+}
+caption{
+    font-style: italic;
+    font-size: 30px;
+}
+table{
+    height: 450px;
+    width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: aqua;
+}
+.row1{
+    background-color: darkblue;
+}
+.row2{
+    background-color: darkred;
+}
+.row3{
+    background-color: darkblue;
+}
+.row4{
+    background-color: darkred;
+}

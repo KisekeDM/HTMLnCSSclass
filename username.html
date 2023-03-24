@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Validate Username</title>
+
+  <script type="text/javascript">
+    function username(){
+      var user=document.getElementById(uname);
+      if(user.value==""){
+        alert("Please provide username");
+        return false;
+      }
+      else{
+        return true;
+      }
+    }
+
+  </script>
+
+</head>
+<body>
+<form onsubmit="return username()" action="BackgroundImage.html">
+  <label for="uname">Username:</label><br>
+  <input type="text" id="uname"><br><br>
+
+  <button type="submit">Submit</button>
+
+</form>
+</body>
+</html>

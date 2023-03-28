@@ -1,0 +1,24 @@
+table{
+    width: 100%;
+    height: 300px;
+}
+table,td,th{
+    border: 1.5px solid black;
+    border-collapse: collapse;
+}
+th{
+    background-color: grey;
+    text-align: left;
+    font-size: 30px;
+    font-family: Chandas;
+}
+.bold{
+    background-color: lightgray;
+    font-size: 30px;
+    font-family: Chandas;
+}
+.right{
+    text-align: right;
+    font-size: 30px;
+    font-family: Chandas;
+}

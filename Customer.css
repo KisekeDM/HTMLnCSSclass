@@ -1,0 +1,16 @@
+.sup{
+    color: red;
+}
+form{
+    border: 2px solid black;
+    margin-left: 300px;
+    margin-right: 300px;
+    padding: 50px;
+    height: 500px;
+}
+.input{
+    width: 75%;
+}
+legend{
+    font-size: 20px;
+}

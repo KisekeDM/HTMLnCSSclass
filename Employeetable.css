@@ -1,0 +1,27 @@
+tr:nth-child(even){
+    background-color: lightgoldenrodyellow;
+}
+tr:nth-child(odd){
+    background-color: dodgerblue;
+}
+th{
+    background-color: limegreen;
+}
+table,th,td{
+    border: 3.5px solid black;
+    border-collapse: collapse;
+}
+tr{
+    border-bottom: 5px solid black;
+}
+caption{
+    font-family: AnjaliOldLipi;
+    font-size: 60px;
+}
+table{
+    width: 100%;
+    height: 300px;
+}
+td{
+    text-align: center;
+}

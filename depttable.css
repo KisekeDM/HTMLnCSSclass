@@ -1,0 +1,26 @@
+table{
+    height: 300px;
+    width: 100%;
+}
+td,th{
+    border-bottom: 2px solid white;
+}
+tr:nth-child(even){
+    background-color:lightsteelblue ;
+}
+tr:nth-child(odd){
+    background-color: powderblue;
+}
+th{
+    background-color: dodgerblue;
+}
+caption{
+    font-size: 30px;
+    font-family:"Tibetan Machine Uni" ;
+}
+.dept{
+    color: yellow;
+}
+.dname{
+    color: white;
+}

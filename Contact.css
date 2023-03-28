@@ -1,0 +1,41 @@
+
+.input{
+    background-color: yellow;
+    border-radius: 20px;
+    border: 1px solid yellow;
+    height: 40px;
+    text-align: center;
+    font-size: 25px;
+    width: 100%;
+    color: saddlebrown;
+    font-weight: bold;
+}
+form{
+    background-color: white;
+    border: 2px solid white;
+    border-radius: 10px;
+    margin-right: 500px;
+    margin-left: 500px;
+    padding: 70px;
+}
+legend{
+    font-weight: bold;
+    font-size: 40px;
+    font-family: Chandas;
+    text-align: center;
+    color: saddlebrown;
+}
+input,textarea{
+    background-color: white;
+    text-align: left;
+    width: 100%;
+    font-size: 15px;
+    border-radius: 5px;
+}
+body{
+    background-color: yellow;
+}
+input{
+    height: 40px;
+    border-radius: 5px;
+}

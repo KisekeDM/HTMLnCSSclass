@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CUSTOMER</title>
+
+  <link rel="stylesheet" href="Customer.css">
+
+    <script type="text/javascript">
+        function customer(){
+            var Name=document.getElementById(name);
+            var Email=document.getElementById(email);
+            var Investment=document.getElementById(invest);
+            var DateJoined=document.getElementById(date);
+
+            if (name.value===""||email.value===""||invest.value===""||date.value==="") {
+                alert("Above information required")
+                return false;
+            }
+            else {
+                return true;
+            }
+        }
+    </script>
+
+</head>
+<body>
+<form onsubmit="return customer()" action="MentalHealth.html">
+  <fieldset>
+    <legend>Customer</legend>
+
+    <label for="name">Name <sup class="sup">*</sup></label>
+    <input class="input" type="text" id="name"><br><br>
+
+    <label for="email">Email <sup class="sup">*</sup></label>
+    <input class="input" type="email" id="email"><br><br>
+
+    <label for="invest">Investment</label>
+    <input class="input" type="text" id="invest"><br><br>
+
+    <label for="date">Date Joined <sup class="sup">*</sup></label>
+    <input class="input" type="date" id="date"><br><br>
+
+    Active <input type="checkbox">
+
+  </fieldset>
+  <br><br>
+
+  <input type="submit" value="OK">
+
+</form>
+</body>
+</html>

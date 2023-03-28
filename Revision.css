@@ -1,0 +1,26 @@
+*{
+   background-color: burlywood ;
+}
+.par{
+    background-color: black;
+    color: white;
+    font-style: italic;
+    font-size: 30px;
+    font-weight: bold;
+    font-variant: small-caps;
+    text-decoration: underline;
+    cursor: progress;
+    border: 2px dashed navajowhite;
+    padding: 20px;
+    outline: 4px solid darkorange;
+    line-height: 1cm;
+    text-indent: 50px;
+    word-spacing: 5px;
+}
+.lorem{
+    color: red;
+}
+ul{
+    list-style-type: circle;
+    list-style-position: outside;
+}
